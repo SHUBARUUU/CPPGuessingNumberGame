@@ -68,10 +68,8 @@ int main(){
     bool playAgain = true;
 
     while(playAgain){
-
         int rando = rand() %101;
 
-        cout << rando << endl;
         inputNumber("Guess the number (1 - 100): ", &guessingNumber);
 
         if(rando == guessingNumber){
